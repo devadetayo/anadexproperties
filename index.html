@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anadex Properties — Find Your Perfect Home</title>
+    <meta name="description" content="Discover dream homes, lands, and investment properties with Anadex Properties. Trusted real estate experts in Nigeria." />
+    <meta name="keywords" content="real estate, houses for sale, property, buy land, apartments, Nigeria homes" />
+    <meta name="author" content="Anadex Properties" />
+    <link rel="icon" href="assets/favico/favico.png" type="image/png">
+    <link rel="canonical" href="https://anadexproperties.com/" />
+    <meta property="og:title" content="Anadex Properties — Find Your Perfect Home" />
+    <meta property="og:description" content="Browse premium properties across Nigeria with verified agents." />
+    <meta property="og:image" content="https://anadexproperties.com/og-cover.jpg" />
+    <meta property="og:url" content="https://anadexproperties.com/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="assets/quanta-css/dist/quanta.min.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <script src="assets/js/navbar.js" defer></script>
+</head>
+<body class="bg-white overflow-visible w-full d-flex h-auto text-grey-600 top-0 left-0">
+    <header class="w-full d-flex items-center h-full sticky top-0 left-0 bg-white z-9999">
+        <div class="container d-flex justify-between items-center w-full py-4 px-6 md-px-8 lg-px-28">
+            <!-- Logo -->
+            <a href="/" class="font-w-bold font-s-20 text-primary-600"><img src="assets/images/logo.png" class="h-9"></a>
+
+            <!-- Desktop Nav -->
+            <nav class="d-none md-d-flex items-center gap-2">
+                <a href="" class="d-flex py-1 px-4 text-inherit hover-text-secondary rounded-sm hover-no-underline">Home</a>
+                <a href="about.html" class="d-flex py-1 px-4 text-inherit hover-text-secondary rounded-sm hover-no-underline">About</a>
+                <a href="#contact" class="d-flex py-1 px-4 text-inherit hover-text-secondary rounded-sm hover-no-underline">Contact</a>
+                <a href="properties.html" class="quanta-btn quanta-btn-outline-primary quanta-btn-rounded-sm hover-no-underline items-center gap-2">Properties
+                </a>
+            </nav>
+
+            <div class="d-flex lg-d-none gap-2">
+                <!-- Mobile Hamburger -->
+                <button data-toggle data-target="#mobile-menu" class="menu-toggle d-flex lg-d-none p-2 border-0" aria-label="Toggle menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="18" height="18" fill="currentColor"><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+                </button>
+            </div>
+            
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <ul id="mobile-menu" class="d-flex flex-col bg-white shadow-md min-h-100vh w-80p fixed p-4 z-10">
+        <div class="container d-flex justify-between items-center w-full pb-4 px-4">
+            <!-- Logo -->
+            <a href="/" class="font-w-bold font-s-20 text-primary-600"><img src="assets/images/logo.png" class="h-9"></a>
+        </div>
+
+        <li><a href="docs.html" class="d-flex py-2 px-2 text-inherit hover-text-primary hover-no-underline">DHome</a></li>
+        <li><a href="playground.html" class="d-flex py-2 px-2 text-inherit hover-text-primary hover-no-underline">Playground</a></li>
+        <li><a href="shop.html" class="d-flex py-2 px-2 text-inherit hover-text-primary hover-no-underline">Shop</a></li>
+        <li><a href="examples.html" class="d-flex py-2 px-2 text-inherit hover-text-primary hover-no-underline">Examples</a></li>
+
+        <li><a href="https://github.com/devadetayo/quanta-css" class="d-flex items-center py-2 px-2 text-inherit hover-text-primary hover-no-underline rounded-md gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="20" height="20" fill="currentColor"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg> Github
+        </a></li>
+
+        <li><a href="https://discord.gg/ZKxD4A8J" class="d-flex items-center py-2 px-2 text-inherit hover-text-primary hover-no-underline rounded-md gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" fill="currentColor" height="24px" width="24px"><path d="M524.5 69.8a1.5 1.5 0 0 0 -.8-.7A485.1 485.1 0 0 0 404.1 32a1.8 1.8 0 0 0 -1.9 .9 337.5 337.5 0 0 0 -14.9 30.6 447.8 447.8 0 0 0 -134.4 0 309.5 309.5 0 0 0 -15.1-30.6 1.9 1.9 0 0 0 -1.9-.9A483.7 483.7 0 0 0 116.1 69.1a1.7 1.7 0 0 0 -.8 .7C39.1 183.7 18.2 294.7 28.4 404.4a2 2 0 0 0 .8 1.4A487.7 487.7 0 0 0 176 479.9a1.9 1.9 0 0 0 2.1-.7A348.2 348.2 0 0 0 208.1 430.4a1.9 1.9 0 0 0 -1-2.6 321.2 321.2 0 0 1 -45.9-21.9 1.9 1.9 0 0 1 -.2-3.1c3.1-2.3 6.2-4.7 9.1-7.1a1.8 1.8 0 0 1 1.9-.3c96.2 43.9 200.4 43.9 295.5 0a1.8 1.8 0 0 1 1.9 .2c2.9 2.4 6 4.9 9.1 7.2a1.9 1.9 0 0 1 -.2 3.1 301.4 301.4 0 0 1 -45.9 21.8 1.9 1.9 0 0 0 -1 2.6 391.1 391.1 0 0 0 30 48.8 1.9 1.9 0 0 0 2.1 .7A486 486 0 0 0 610.7 405.7a1.9 1.9 0 0 0 .8-1.4C623.7 277.6 590.9 167.5 524.5 69.8zM222.5 337.6c-29 0-52.8-26.6-52.8-59.2S193.1 219.1 222.5 219.1c29.7 0 53.3 26.8 52.8 59.2C275.3 311 251.9 337.6 222.5 337.6zm195.4 0c-29 0-52.8-26.6-52.8-59.2S388.4 219.1 417.9 219.1c29.7 0 53.3 26.8 52.8 59.2C470.7 311 447.5 337.6 417.9 337.6z"/></svg> Discord
+        </a></li>
+    </ul>
+
+    <section class="w-full d-flex min-h-100vh">
+        <div class="d-flex w-full flex-1 bg-white overflow-hidden relative">
+            <div class="w-full flex-1 bg-grey-100 overflow-hidden relative py-4 px-6 md-px-8 lg-px-32" style="background: url('assets/images/residence-2219972_1280.jpg'); background-repeat: no-repeat; background-size: cover;">
+                <div class="d-flex flex-col w-full h-full flex-1 z-10 pt-8 md-pt-20">
+                    <h3 class="font-size-8 md-font-size-10 lg-font-size-18 font-weight-extrabold w-full md-w-60p line-height-1 mb-4 text-black">Luxury Real Estate, <span class="text-secondary">Redefined</span></h3>
+                    <p class="font-size-4 md-font-size-5 w-full md-w-60p">Discover a curated selection of high-end homes, apartments, and investment properties across Nigeria. Trusted by discerning buyers, investors, and developers for modern, discreet service.</p>
+                    <div class="d-flex gap-2 mt-8">
+                        <a href="#" class="quanta-btn quanta-btn-primary quanta-btn-rounded-sm hover-no-underline text-white">Learn More</a>
+                        <a href="#" class="quanta-btn quanta-btn-outline-primary quanta-btn-rounded-sm hover-no-underline">Properties</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-10 md-py-16 lg-py-20 px-6 md-px-8 lg-px-28 bg-grey-800 text-white">
+        <div class="text-left mb-4">
+            <h2 class="font-size-10 md-font-size-12 font-weight-bold text-white mb-4">
+                Our Experience
+            </h2>
+            <p class="w-full md-w-60p">Decades of combined expertise, a trusted network of agents, and a reputation for delivering value — that’s what defines our legacy.</p>
+        </div>
+
+        <div class="d-grid grid-cols-2 md-grid-cols-2 lg-grid-cols-4 gap-8 text-left mt-8">
+            <!-- Stat Card -->
+            <div>
+                <h3 class="font-size-8 md-font-size-8 md-font-size-12 font-weight-bold text-white">500+</h3>
+                <p class="font-size-3 md-font-size-5 text-grey-200">Properties Sold</p>
+            </div>
+
+            <div>
+                <h3 class="font-size-8 md-font-size-8 md-font-size-12 font-weight-bold text-white">10+</h3>
+                <p class="font-size-3 md-font-size-5 text-grey-200">Years of Experience</p>
+            </div>
+
+            <div>
+                <h3 class="font-size-8 md-font-size-8 md-font-size-12 font-weight-bold text-white">1,000+</h3>
+                <p class="font-size-3 md-font-size-5 text-grey-200">Happy Clients</p>
+            </div>
+
+            <div>
+                <h3 class="font-size-8 md-font-size-8 md-font-size-12 font-weight-bold text-white">24/7</h3>
+                <p class="font-size-3 md-font-size-5 text-grey-200">Support Availability</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-10 md-py-16 lg-py-20 px-6 md-px-8 lg-px-32">
+        <div class="text-left mb-4">
+            <h2 class="font-size-8 md-font-size-12 font-weight-bold mb-4 line-height-1 text-black">
+                Our Services
+            </h2>
+            <p class="w-full md-w-60p">From residential sales to property management, we provide end-to-end solutions tailored to your real estate goals.</p>
+        </div>
+
+        <div class="d-grid grid-cols-1 md-grid-cols-2 lg-grid-cols-3 gap-8 text-left mt-12">
+            <div class="d-flex flex-col bg-white shadow-lg p-4 md-p-8 hover-bg-secondary hover-text-white hover-scale-105 transition-all duration-300 ease-in-out group group">
+                <span class="text-secondary group-hover-text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-12 md-size-8">
+                        <path d="M19.006 3.705a.75.75 0 1 0-.512-1.41L6 6.838V3a.75.75 0 0 0-.75-.75h-1.5A.75.75 0 0 0 3 3v4.93l-1.006.365a.75.75 0 0 0 .512 1.41l16.5-6Z" />
+                        <path fill-rule="evenodd" d="M3.019 11.114 18 5.667v3.421l4.006 1.457a.75.75 0 1 1-.512 1.41l-.494-.18v8.475h.75a.75.75 0 0 1 0 1.5H2.25a.75.75 0 0 1 0-1.5H3v-9.129l.019-.007ZM18 20.25v-9.566l1.5.546v9.02H18Zm-9-6a.75.75 0 0 0-.75.75v4.5c0 .414.336.75.75.75h3a.75.75 0 0 0 .75-.75V15a.75.75 0 0 0-.75-.75H9Z" clip-rule="evenodd" />
+                    </svg>
+                </span>
+                <div class="d-flex flex-col">
+                    <h3 class="font-size-5 md-font-size-5 md-font-size-6 font-weight-bold mb-4 mt-8 line-height-1 text-black group-hover-text-white">Property Sales</h3>
+                    <p>We specialize in connecting buyers with high-value properties across Nigeria. Whether you're looking for a luxurious duplex in Lekki or a serene bungalow in Abuja, our team ensures every listing is verified and every transaction is seamless from start to finish.</p>
+                </div>
+            </div>
+            <div class="d-flex flex-col bg-white shadow-lg p-4 md-p-8 hover-bg-secondary hover-text-white hover-scale-105 transition-all duration-300 ease-in-out group">
+                <span class="text-secondary group-hover-text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-12 md-size-8">
+                        <path fill-rule="evenodd" d="M8.161 2.58a1.875 1.875 0 0 1 1.678 0l4.993 2.498c.106.052.23.052.336 0l3.869-1.935A1.875 1.875 0 0 1 21.75 4.82v12.485c0 .71-.401 1.36-1.037 1.677l-4.875 2.437a1.875 1.875 0 0 1-1.676 0l-4.994-2.497a.375.375 0 0 0-.336 0l-3.868 1.935A1.875 1.875 0 0 1 2.25 19.18V6.695c0-.71.401-1.36 1.036-1.677l4.875-2.437ZM9 6a.75.75 0 0 1 .75.75V15a.75.75 0 0 1-1.5 0V6.75A.75.75 0 0 1 9 6Zm6.75 3a.75.75 0 0 0-1.5 0v8.25a.75.75 0 0 0 1.5 0V9Z" clip-rule="evenodd" />
+                    </svg>
+                </span>
+                <div class="d-flex flex-col">
+                    <h3 class="font-size-5 md-font-size-5 md-font-size-6 font-weight-bold mb-4 mt-8 line-height-1 text-black group-hover-text-white">Land Acquisition</h3>
+                    <p>Gain access to verified lands with proper documentation and secure titles. Whether for residential projects, commercial use, or long-term investment, we help you acquire land in prime locations with complete peace of mind.</p>
+                </div>
+            </div>
+            <div class="d-flex flex-col bg-white shadow-lg p-4 md-p-8 hover-bg-secondary hover-text-white hover-scale-105 transition-all duration-300 ease-in-out group">
+                <span class="text-secondary group-hover-text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-12 md-size-8">
+                        <path d="M4.913 2.658c2.075-.27 4.19-.408 6.337-.408 2.147 0 4.262.139 6.337.408 1.922.25 3.291 1.861 3.405 3.727a4.403 4.403 0 0 0-1.032-.211 50.89 50.89 0 0 0-8.42 0c-2.358.196-4.04 2.19-4.04 4.434v4.286a4.47 4.47 0 0 0 2.433 3.984L7.28 21.53A.75.75 0 0 1 6 21v-4.03a48.527 48.527 0 0 1-1.087-.128C2.905 16.58 1.5 14.833 1.5 12.862V6.638c0-1.97 1.405-3.718 3.413-3.979Z" />
+                        <path d="M15.75 7.5c-1.376 0-2.739.057-4.086.169C10.124 7.797 9 9.103 9 10.609v4.285c0 1.507 1.128 2.814 2.67 2.94 1.243.102 2.5.157 3.768.165l2.782 2.781a.75.75 0 0 0 1.28-.53v-2.39l.33-.026c1.542-.125 2.67-1.433 2.67-2.94v-4.286c0-1.505-1.125-2.811-2.664-2.94A49.392 49.392 0 0 0 15.75 7.5Z" />
+                    </svg>
+                </span>
+                <div class="d-flex flex-col">
+                    <h3 class="font-size-5 md-font-size-5 md-font-size-6 font-weight-bold mb-4 mt-8 line-height-1 text-black group-hover-text-white">Real Estate Consulting</h3>
+                    <p>Make smarter real estate decisions with insights from our expert consultants. We offer personalized advisory services for investors, developers, and individuals — helping you analyze market trends, assess opportunities, and navigate the property landscape.</p>
+                </div>
+            </div>
+            <div class="d-flex flex-col bg-white shadow-lg p-4 md-p-8 hover-bg-secondary hover-text-white hover-scale-105 transition-all duration-300 ease-in-out group">
+                <span class="text-secondary group-hover-text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-12 md-size-8">
+                        <path fill-rule="evenodd" d="M12 6.75a5.25 5.25 0 0 1 6.775-5.025.75.75 0 0 1 .313 1.248l-3.32 3.319c.063.475.276.934.641 1.299.365.365.824.578 1.3.64l3.318-3.319a.75.75 0 0 1 1.248.313 5.25 5.25 0 0 1-5.472 6.756c-1.018-.086-1.87.1-2.309.634L7.344 21.3A3.298 3.298 0 1 1 2.7 16.657l8.684-7.151c.533-.44.72-1.291.634-2.309A5.342 5.342 0 0 1 12 6.75ZM4.117 19.125a.75.75 0 0 1 .75-.75h.008a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75h-.008a.75.75 0 0 1-.75-.75v-.008Z" clip-rule="evenodd" />
+                        <path d="m10.076 8.64-2.201-2.2V4.874a.75.75 0 0 0-.364-.643l-3.75-2.25a.75.75 0 0 0-.916.113l-.75.75a.75.75 0 0 0-.113.916l2.25 3.75a.75.75 0 0 0 .643.364h1.564l2.062 2.062 1.575-1.297Z" />
+                        <path fill-rule="evenodd" d="m12.556 17.329 4.183 4.182a3.375 3.375 0 0 0 4.773-4.773l-3.306-3.305a6.803 6.803 0 0 1-1.53.043c-.394-.034-.682-.006-.867.042a.589.589 0 0 0-.167.063l-3.086 3.748Zm3.414-1.36a.75.75 0 0 1 1.06 0l1.875 1.876a.75.75 0 1 1-1.06 1.06L15.97 17.03a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                    </svg>
+                </span>
+                <div class="d-flex flex-col">
+                    <h3 class="font-size-5 md-font-size-5 md-font-size-6 font-weight-bold mb-4 mt-8 line-height-1 text-black group-hover-text-white">Property Management</h3>
+                    <p>Own rental property without the stress. From tenant acquisition to rent collection, repairs, and reporting — we handle the full scope of day-to-day property management while you focus on returns and growth.</p>
+                </div>
+            </div>
+            <div class="d-flex flex-col bg-white shadow-lg p-4 md-p-8 hover-bg-secondary hover-text-white hover-scale-105 transition-all duration-300 ease-in-out group">
+                <span class="text-secondary group-hover-text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-12 md-size-8">
+                        <path fill-rule="evenodd" d="M12 2.25a.75.75 0 0 1 .75.75v.756a49.106 49.106 0 0 1 9.152 1 .75.75 0 0 1-.152 1.485h-1.918l2.474 10.124a.75.75 0 0 1-.375.84A6.723 6.723 0 0 1 18.75 18a6.723 6.723 0 0 1-3.181-.795.75.75 0 0 1-.375-.84l2.474-10.124H12.75v13.28c1.293.076 2.534.343 3.697.776a.75.75 0 0 1-.262 1.453h-8.37a.75.75 0 0 1-.262-1.453c1.162-.433 2.404-.7 3.697-.775V6.24H6.332l2.474 10.124a.75.75 0 0 1-.375.84A6.723 6.723 0 0 1 5.25 18a6.723 6.723 0 0 1-3.181-.795.75.75 0 0 1-.375-.84L4.168 6.241H2.25a.75.75 0 0 1-.152-1.485 49.105 49.105 0 0 1 9.152-1V3a.75.75 0 0 1 .75-.75Zm4.878 13.543 1.872-7.662 1.872 7.662h-3.744Zm-9.756 0L5.25 8.131l-1.872 7.662h3.744Z" clip-rule="evenodd" />
+                    </svg>
+                </span>
+                <div class="d-flex flex-col">
+                    <h3 class="font-size-5 md-font-size-5 md-font-size-6 font-weight-bold mb-4 mt-8 line-height-1 text-black group-hover-text-white">Valuation & Appraisal</h3>
+                    <p>Ensure you know the true value of your property. Our valuation services are based on market intelligence, professional standards, and accurate data — helping you price right, invest wisely, and negotiate with confidence.</p>
+                </div>
+            </div>
+            <div class="d-flex flex-col bg-white shadow-lg p-4 md-p-8 hover-bg-secondary hover-text-white hover-scale-105 transition-all duration-300 ease-in-out group">
+                <span class="text-secondary group-hover-text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-12 md-size-8">
+                        <path d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75ZM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 0 1-1.875-1.875V8.625ZM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 0 1 3 19.875v-6.75Z" />
+                    </svg>
+                </span>
+                <div class="d-flex flex-col">
+                    <h3 class="font-size-5 md-font-size-5 md-font-size-6 font-weight-bold mb-4 mt-8 line-height-1 text-black group-hover-text-white">Investment Advisory</h3>
+                    <p>Let your real estate portfolio work smarter. We build tailored investment strategies based on your risk appetite, goals, and timeline — offering access to high-growth properties and off-market deals with strong ROI potential.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-10 md-py-16 lg-py-20 px-6 md-px-8 lg-px-32">
+        <div class="text-left mb-12 d-flex w-full d-flex flex-col md-flex-row">
+            <div class="d-flex w-full md-w-70p flex-col">
+                <h2 class="font-size-8 md-font-size-12 font-weight-bold mb-4 line-height-1 text-black">
+                    Our Properties
+                </h2>
+                <p class="w-full md-w-60p">Handpicked listings from top agents across Nigeria — vetted for value, design, and location.</p>
+            </div>
+            <div class="d-flex items-end w-full md-w-30p mt-8">
+                <button class="py-3 px-6 bg-grey-800 hover-opacity-80 text-white min-w-fit w-fit d-flex items-center justify-center w-full gap-4">Learn More 
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-4">
+                        <path fill-rule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="d-grid gap-8 md-grid-cols-2 lg-grid-cols-3">
+            <div class="bg-transparent hover-bg-white hover-shadow-xl hover-scale-105 transition-all duration-300 ease-in-out">
+                <img src="assets/images/residence-2219972_1280.jpg" alt="Property 1" class="w-full h-52 object-cover" />
+                <div class="p-4 md-p-6">
+                    <h3 class="font-size-5 md-font-size-5 md-font-size-6 font-weight-bold text-black dark:text-white">4-Bed Duplex </h3>
+                    <div class="d-flex w-full items-center h-full gap-2 text-sm">
+                        <span class="d-flex gap-1 items-center text-grey-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-4">
+                                <path fill-rule="evenodd" d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd" />
+                            </svg>
+                            Lekki Phase 1
+                        </span>
+                        <span class="d-flex bg-grey-500 w-1 h-1 rounded-full"></span>
+                        <span class="text-grey-600">Lagos State</span>
+                    </div>
+                    <div class="d-flex w-full justify-between mt-4 items-center">
+                        <p class="font-size-5 md-font-size-6 text-primary-600 mt-1 font-weight-bold">₦120M</p>
+                        <button class="quanta-btn quanta-btn-outline-primary quanta-btn-rounded-sm">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-transparent hover-bg-white hover-shadow-xl hover-scale-105 transition-all duration-300 ease-in-out">
+                <img src="assets/images/residence-2219972_1280.jpg" alt="Property 1" class="w-full h-52 object-cover" />
+                <div class="p-4 md-p-6">
+                    <h3 class="font-size-5 md-font-size-5 md-font-size-6 font-weight-bold text-black dark:text-white">3-Bed Apartment</h3>
+                    <div class="d-flex w-full items-center h-full gap-2 text-sm">
+                        <span class="d-flex gap-1 items-center text-grey-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-4">
+                                <path fill-rule="evenodd" d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd" />
+                            </svg>
+                            victoria Island
+                        </span>
+                        <span class="d-flex bg-grey-500 w-1 h-1 rounded-full"></span>
+                        <span class="text-grey-600">Lagos State</span>
+                    </div>
+                    <div class="d-flex w-full justify-between mt-4 items-center">
+                        <p class="font-size-5 md-font-size-6 text-primary-600 mt-1 font-weight-bold">₦95M</p>
+                        <button class="quanta-btn quanta-btn-outline-primary quanta-btn-rounded-sm">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-transparent hover-bg-white hover-shadow-xl hover-scale-105 transition-all duration-300 ease-in-out">
+                <img src="assets/images/residence-2219972_1280.jpg" alt="Property 1" class="w-full h-52 object-cover" />
+                <div class="p-4 md-p-6">
+                    <h3 class="font-size-5 md-font-size-5 md-font-size-6 font-weight-bold text-black dark:text-white">Empty Land</h3>
+                    <div class="d-flex w-full items-center h-full gap-2 text-sm">
+                        <span class="d-flex gap-1 items-center text-grey-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-4">
+                                <path fill-rule="evenodd" d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd" />
+                            </svg>
+                            Ikoyi GRA
+                        </span>
+                        <span class="d-flex bg-grey-500 w-1 h-1 rounded-full"></span>
+                        <span class="text-grey-600">Lagos State</span>
+                    </div>
+                    <div class="d-flex w-full justify-between mt-4 items-center">
+                        <p class="font-size-5 md-font-size-6 text-primary-600 mt-1 font-weight-bold">₦300M</p>
+                        <button class="quanta-btn quanta-btn-outline-primary quanta-btn-rounded-sm">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-10 md-py-16 lg-py-20 px-6 md-px-8 lg-px-32">
+        <div class="d-flex flex-1 flex-col md-flex-row w-full h-full gap-8 md-gap-16">
+            <div class="w-full md-w-50p lg-w-40p min-h-32 h-full md-h-32">
+                <div class="d-flex w-full overflow-hidden w-full h-full">
+                    <img src="assets/images/architecture-5999913_1280.jpg" class="object-cover object-center w-full h-full">
+                </div>
+            </div>
+            <div class="text-left mb-12 d-flex w-full d-flex flex-col md-w-50p lg-w-60p">
+                <div class="d-flex w-full flex-col">
+                    <h2 class="font-size-8 md-font-size-12 font-weight-bold mb-4 line-height-1 text-secondary">
+                        Why Choose Us
+                    </h2>
+                    <p class="w-full">We don’t just offer properties — we offer peace of mind. Our reputation is built on trust, transparency, and consistently delivering results across Nigeria’s real estate landscape.</p>
+                </div>
+
+                <div class="d-flex w-full flex-col py-6">
+                    <div class="d-flex gap-4 items-start">
+                        <span class="text-secondary font-size-5 md-font-size-7 font-weight-bold">01.</span>
+                        <h3 class="font-weight-bold font-size-5 md-font-size-7 text-black">Verified & Secure Listings</h3>
+                    </div>
+                    <p>All properties on our platform go through a strict verification process. From title documents to agent background checks, we ensure everything is legit — so you can buy or invest without second guessing.</p>
+                </div>
+                <div class="d-flex w-full flex-col pt-6">
+                    <div class="d-flex gap-4 items-start">
+                        <span class="text-secondary font-size-5 md-font-size-7 font-weight-bold">02.</span>
+                        <h3 class="font-weight-bold font-size-5 md-font-size-7 text-black">Deep Local Expertise</h3>
+                    </div>
+                    <p>We know the terrain — from high-growth investment zones to family-friendly neighborhoods. Our agents combine insider market knowledge with on-ground experience to help you make smarter decisions.</p>
+                </div>
+
+                <div class="d-flex w-full flex-col pt-6">
+                    <div class="d-flex gap-4 items-start">
+                        <span class="text-secondary font-size-5 md-font-size-7 font-weight-bold">03.</span>
+                        <h3 class="font-weight-bold font-size-5 md-font-size-7 text-black">Client-Centered Service</h3>
+                    </div>
+                    <p>You’re not just another lead — you’re a long-term relationship. Our process is tailored, transparent, and built around your goals. We guide you every step of the way, with zero pressure and real results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-10 md-py-16 lg-py-20 px-6 md-px-8 lg-px-28 bg-grey-100 text-grey-600">
+        <div class="text-left d-flex w-full d-flex flex-col md-flex-row gap-8">
+            <div class="d-flex w-full md-w-70p flex-col">
+                <h2 class="font-size-8 md-font-size-12 font-weight-bold mb-6 line-height-1 w-full md-w-60p text-black">
+                    Let’s Find Your Next Property <span class="text-secondary">— Together</span>
+                </h2>
+                <p class="w-full md-w-70p">At the core of everything we do is a commitment to delivering real value, not just promises. From property verification to market insights and hands-on support, our approach is built to protect your investment, simplify your journey, and give you complete peace of mind — whether you're a first-time buyer or a seasoned investor.</p>
+            </div>
+            <div class="d-flex items-end w-full md-w-30p">
+                <button onclick="window.location.href='mailto:info@anadexproperties.com';" class="py-3 px-6 bg-grey-800 hover-opacity-80 text-white min-w-fit w-fit d-flex items-center justify-center w-full gap-4">Contact Us
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-4">
+                        <path fill-rule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-10 md-py-16 lg-py-20 px-6 md-px-8 lg-px-32 d-flex w-full justify-center">
+        <div class="text-center d-flex w-full md-w-50p d-flex flex-col gap-8">
+            <div class="d-flex flex-col w-full">
+                <h2 class="font-size-8 md-font-size-12 font-weight-bold mb-6 line-height-1 text-black">
+                    Get in Touch.
+                </h2>
+                <p class="">We’re here to help you make the right move.</p>
+            </div>
+            <div class="d-flex items-end w-full">
+                <form class="quanta-form" method="POST">
+                    <div class="quanta-form-grid">
+                        <div class="quanta-form-group">
+                            <input class="quanta-form-input" placeholder="Your name">
+                        </div>
+                        <div class="quanta-form-group">
+                            <input class="quanta-form-input" placeholder="Email address">
+                        </div>
+                    </div>
+                    <textarea class="quanta-form-textarea" placeholder="Write a message"></textarea>
+                    <button type="submit" class="quanta-btn quanta-btn-primary" name="message">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 md-pt-16 lg-pt-20 lg-pb-24 px-6 md-px-8 lg-px-32 d-flex flex-col w-full bg-grey-900 text-grey-400">
+        <div class="d-grid grid-cols-1 md-grid-cols-2 lg-grid-cols-4 gap-16">
+            <div class="">
+                <a href="/" class="font-w-bold font-s-20 text-primary-600"><img src="assets/images/logo-footer.png" class="h-9"></a>
+                <p class="my-6">Finding a property doesn’t have to be stressful. We’re here when you’re ready to make moves.</p>
+                <div class="d-flex gap-4 mt-4">
+                    <a href="https://www.facebook.com/share/15ytcTSUYw/" class="quanta-btn quanta-btn-icon quanta-btn-outline-secondary" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="18" height="18" fill="currentColor"><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg>
+                    </a>
+        
+                    <a href="https://x.com/zibraplanetltd" class="quanta-btn quanta-btn-icon quanta-btn-outline-secondary" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="18" height="18" fill="currentColor"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+                    </a>
+        
+                    <a href="https://www.instagram.com/anadexproperties?igsh=MWZyZnNhc3A4N2NxdQ==" class="quanta-btn quanta-btn-icon quanta-btn-outline-secondary" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="18" height="18" fill="currentColor"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="d-flex flex-col items-start md-items-center items-center w-full text-left">
+                <div class="d-flex flex-col w-full gap-2">
+                    <p class="font-semibold text-white">Quick Links</p>
+                    <a href="index.html" class="hover-text-white max-w-fit text-slate-600 nav-items hover-no-underline">Home</a>
+                    <a href="about.html" class="hover-text-white max-w-fit text-slate-600 nav-items hover-no-underline">About</a>
+                    <a href="projects.html" class="hover-text-white max-w-fit text-slate-600 nav-items hover-no-underline">Properties</a>
+                    <a href="#contact" class="hover-text-white max-w-fit text-slate-600 nav-items hover-no-underline">Contact</a>
+                </div>
+            </div>
+
+            <div class="d-flex flex-col items-start md-items-center items-center w-full text-left">
+                <div class="d-flex flex-col w-full gap-2">
+                    <p class="font-semibold text-white">Locations</p>
+                    <a href="index.html" class="hover-text-white max-w-fit text-slate-600 nav-items hover-no-underline">Abuja</a>
+                    <a href="about.html" class="hover-text-white max-w-fit text-slate-600 nav-items hover-no-underline">Lagos</a>
+                    <a href="projects.html" class="hover-text-white max-w-fit text-slate-600 nav-items hover-no-underline">Ibadan</a>
+                </div>
+            </div>
+
+            <div class="d-flex flex-col items-start md-items-end text-left">
+                <div class="d-flex flex-col w-full md-w-fit gap-2">
+                    <p class="font-semibold text-white">Properties</p>
+                    <a href="index.html" class="hover-text-white max-w-fit text-slate-600 nav-items hover-no-underline">2 Bedroom Flat</a>
+                    <a href="about.html" class="hover-text-white max-w-fit text-slate-600 nav-items hover-no-underline">4 Bedroom Flat</a>
+                    <a href="projects.html" class="hover-text-white max-w-fit text-slate-600 nav-items hover-no-underline">3 Bedroom Duplex</a>
+                </div>
+            </div>
+        </div>
+        <div class="container text-start text-light d-flex flex-col md-flex-row py-12 md-py-20 w-full text-white">
+            <p>© 2025 Anadex Properties. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="assets/quanta-css/src/quanta.js" defer></script>
+</body>
+</html>

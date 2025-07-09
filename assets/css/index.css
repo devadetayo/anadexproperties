@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
+:root{
+    --quanta-primary:         #121212;
+    --quanta-primary-hover:   #121212;
+    --quanta-text-primary:    #ffffff;
+    --quanta-border-primary:  #121212;
+
+
+    --quanta-bg-secondary:      #CA914E;
+    --quanta-text-secondary:    #CA914E;
+    --quanta-border-secondary:  #CA914E;
+    --quanta-secondary-hover:   #CA914E;
+}
+
+html, body {
+  font-family: "Geist", "Inter", "segoe UI", sans-serif;
+  color: inherit;
+}
+
+#mobile-menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: left 0.3s ease-in-out;
+}
+
+/* When open, slide into view */
+#mobile-menu.open {
+  left: 0;
+}
