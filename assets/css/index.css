@@ -14,6 +14,19 @@
     --quanta-secondary-hover:   #CA914E;
 }
 
+html[data-theme="dark"]{
+    --quanta-primary:         #121212;
+    --quanta-primary-hover:   #121212;
+    --quanta-text-primary:    #ffffff;
+    --quanta-border-primary:  #121212;
+
+
+    --quanta-bg-secondary:      #CA914E;
+    --quanta-text-secondary:    #CA914E;
+    --quanta-border-secondary:  #CA914E;
+    --quanta-secondary-hover:   #CA914E;
+}
+
 html, body {
   font-family: "Geist", "Inter", "segoe UI", sans-serif;
   color: inherit;
